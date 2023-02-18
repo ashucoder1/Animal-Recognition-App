@@ -79,7 +79,6 @@ class MainActivity : AppCompatActivity() {
 
         var uri: Uri?=data?.data
         bitmap=MediaStore.Images.Media.getBitmap(this.contentResolver,uri)
-
     }
     fun getMax(arr:FloatArray):Int{
         var ind=0
