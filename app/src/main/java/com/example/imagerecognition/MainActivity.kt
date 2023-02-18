@@ -33,7 +33,6 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this,"This Feature will be avilable soon",Toast.LENGTH_LONG ).show()
         }
 
-
         var fileName="labels.txt"
         var inputString=application.assets.open(fileName).bufferedReader().use{it.readText()}
         var townList=inputString.split("\n")
